@@ -33,7 +33,11 @@ Total for all folders: 614
 To obtain detail of files, just change the TO_PRINT settings to "TRUE",
 you can also use this tip to change it in one line command : 
 ```bash
+# if FALSE
 sed -i 's/FALSE/TRUE/g' countLines.sh
+# if TRUE
+sed -i 's/TRUE/FALSE/g' countLines.sh
+
 ```
 If you run the same command with true : 
 ```bash
